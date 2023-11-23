@@ -1,0 +1,75 @@
+{
+  "config": {
+    "step": {
+      "connection_init": {
+        "title": "Nieuwe Telenet account",
+        "description": "Configureer Telenet om je verbruik te volgen",
+        "data": {
+          "username": "Gebruiker",
+          "password": "Wachtwoord",
+          "language": "Taal"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Account is al geconfigureerd"
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken",
+      "invalid_auth": "Ongeldige authenticatie",
+      "unknown": "Onverwachte fout",
+      "service_error": "Service niet beschikbaar"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Herconfigureer Telenet",
+        "data": {
+          "username": "Gebruiker",
+          "password": "Wachtwoord",
+          "language": "Taal"
+        }
+      },
+      "language": {
+        "title": "Wijzig de taal",
+        "description": "Dit is van toepassing wanneer de sensors opnieuw verversen",
+        "data": {
+          "language": "Taal"
+        }
+      },
+      "password": {
+        "title": "Pas je wachtwoord aan",
+        "description": "Te doen wanneer je je account wachtwoord gewijzigd hebt op 'Mijn Telenet'",
+        "data": {
+          "password": "Wachtwoord"
+        }
+      },
+      "options_init": {
+        "title": "Opties wijzigen",
+        "menu_options": {
+          "language": "Sensor taal",
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Account is al geconfigureerd"
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken",
+      "invalid_auth": "Ongeldige authenticatie",
+      "unknown": "Onverwachte fout",
+      "service_error": "Service niet beschikbaar"
+    }
+  },
+  "selector": {
+    "language": {
+      "options": {
+        "nl": "Nederlands",
+        "fr": "Français",
+        "en": "English"
+      }
+    }
+  }
+}

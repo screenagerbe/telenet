@@ -1,0 +1,75 @@
+{
+  "config": {
+    "step": {
+      "connection_init": {
+        "title": "New Telenet account",
+        "description": "Set up your Telenet to allow usage monitoring",
+        "data": {
+          "username": "Username",
+          "password": "Password",
+          "language": "Language"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Account is already configured"
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error",
+      "service_error": "Service unavailable"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Reconfigure Telenet",
+        "data": {
+          "username": "Username",
+          "password": "Password",
+          "language": "Language"
+        }
+      },
+      "language": {
+        "title": "Change the language",
+        "description": "This applies when the sensors are refreshed",
+        "data": {
+          "language": "Language"
+        }
+      },
+      "password": {
+        "title": "Update your password",
+        "description": "To do when you changed your password on 'Mijn Telenet'",
+        "data": {
+          "password": "Password"
+        }
+      },
+      "options_init": {
+        "title": "Change options",
+        "menu_options": {
+          "language": "Sensor language",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error",
+      "service_error": "Service unavailable"
+    },
+    "abort": {
+      "already_configured": "Account is already configured"
+    }
+  },
+  "selector": {
+    "language": {
+      "options": {
+        "nl": "Nederlands",
+        "fr": "Français",
+        "en": "English"
+      }
+    }
+  }
+}
